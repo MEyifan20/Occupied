@@ -1,0 +1,72 @@
+! ===== Global / Overseas Whitelist for AdGuard Home =====
+! CDN / Network
+@@||cloudflare.com^
+@@||cloudflare-dns.com^
+@@||akamai.net^
+@@||akamaiedge.net^
+@@||akamaitechnologies.com^
+@@||fastly.net^
+@@||edgekey.net^
+@@||edgesuite.net^
+@@||jsdelivr.net^
+@@||unpkg.com^
+
+! Google
+@@||google.com^
+@@||googleapis.com^
+@@||gstatic.com^
+@@||googleusercontent.com^
+@@||googlevideo.com^
+@@||youtube.com^
+@@||ytimg.com^
+@@||recaptcha.net^
+@@||recaptcha.google.com^
+
+! Apple
+@@||apple.com^
+@@||icloud.com^
+@@||mzstatic.com^
+@@||cdn-apple.com^
+@@||icloud-content.com^
+@@||apps.apple.com^
+@@||itunes.apple.com^
+
+! Microsoft
+@@||microsoft.com^
+@@||live.com^
+@@||office.com^
+@@||office365.com^
+@@||windows.com^
+@@||windowsupdate.com^
+@@||azureedge.net^
+@@||msedge.net^
+
+! AI / Dev
+@@||openai.com^
+@@||chatgpt.com^
+@@||auth0.com^
+@@||github.com^
+@@||githubusercontent.com^
+@@||githubassets.com^
+@@||gitlab.com^
+@@||npmjs.org^
+@@||nodejs.org^
+@@||pypi.org^
+@@||docker.com^
+@@||docker.io^
+
+! Streaming
+@@||netflix.com^
+@@||nflxvideo.net^
+@@||nflximg.net^
+@@||nflxso.net^
+@@||spotify.com^
+@@||scdn.co^
+@@||twitch.tv^
+@@||ttvnw.net^
+
+! Payment / Auth
+@@||paypal.com^
+@@||paypalobjects.com^
+@@||stripe.com^
+@@||hcaptcha.com^
