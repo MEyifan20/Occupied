@@ -1,0 +1,115 @@
+! ========================================
+! 🛒 电商与生活 (拼多多/美团/京东/阿里补充)
+! ========================================
+@@||pinduoduo.com^
+@@||yangkeduo.com^
+@@||meituan.com^
+@@||meituan.net^
+@@||dianping.com^
+@@||suning.com^
+@@||guazi.com^
+@@||ke.com^
+@@||lianjia.com^
+
+! ========================================
+! 🍎 苹果生态 (解决AppStore/iCloud/系统更新)
+! ========================================
+@@||apple.com^
+@@||icloud.com^
+@@||mzstatic.com^
+@@||cdn-apple.com^
+@@||aaplimg.com^
+@@||me.com^
+! > 下面这条解决部分苹果设备上的隐私警告
+@@||mask-h2.icloud.com^
+@@||mask.icloud.com^
+
+! ========================================
+! 💻 微软与办公 (Windows更新/Office/Teams)
+! ========================================
+@@||microsoft.com^
+@@||msftconnecttest.com^
+@@||windowsupdate.com^
+@@||office.com^
+@@||office365.com^
+@@||live.com^
+@@||bing.com^
+@@||azure.com^
+@@||azure.cn^
+@@||onenote.com^
+@@||sharepoint.com^
+
+! ========================================
+! 📱 手机厂商服务 (小米/华为/OPPO/VIVO)
+! > 解决推送延迟和IoT设备连接问题
+! ========================================
+! 小米
+@@||mi-img.com^
+@@||miui.com^
+@@||xiaomi.com^
+@@||xiaomi.net^
+! 华为
+@@||huawei.com^
+@@||hicloud.com^
+@@||vmall.com^
+! OPPO/VIVO/一加
+@@||oppo.com^
+@@||vivo.com.cn^
+@@||oneplus.com^
+
+! ========================================
+! 🎮 游戏与娱乐 (Steam/Epic/Switch/PlayStation)
+! > 解决商店加载不出图片和登录问题
+! ========================================
+@@||steampowered.com^
+@@||steamcontent.com^
+@@||steamstatic.com^
+@@||steamcommunity.com^
+@@||epicgames.com^
+@@||ubisoft.com^
+! 任天堂
+@@||nintendo.net^
+@@||nintendo.com^
+! 索尼PS
+@@||playstation.com^
+@@||playstation.net^
+@@||sonyentertainmentnetwork.com^
+
+! ========================================
+! ☁️ 国内云服务与CDN (防止静态资源加载失败)
+! ========================================
+@@||qcloud.com^
+@@||qcloudcdn.com^
+@@||myqcloud.com^
+@@||upaiyun.com^
+@@||chinanetcenter.com^
+@@||ourdvsss.com^
+@@||baidupcs.com^
+
+! ========================================
+! 📥 下载与网盘 (迅雷/夸克/115)
+! ========================================
+@@||xunlei.com^
+@@||sandai.net^
+@@||115.com^
+@@||quark.cn^
+
+! ========================================
+! 🏦 金融与支付 (银联/各大银行)
+! ========================================
+@@||95516.com^
+@@||unionpay.com^
+@@||icbc.com.cn^
+@@||cmbchina.com^
+@@||boc.cn^
+@@||ccb.com^
+
+! ========================================
+! 📡 运营商与常用工具
+! ========================================
+@@||189.cn^
+@@||10086.cn^
+@@||10010.com^
+@@||speedtest.net^
+@@||ooklaserver.net^
+@@||frp4.ccszxc.xin^
