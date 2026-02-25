@@ -1,10 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: iOS-OmniGuard-Whitelist (Ultimate Unified Edition)
-! Description: 针对 iOS AdGuard Pro 优化的白名单，217heidai 激进拦截优化，确保iOS 系统、AI、金融及大厂服务在强效过滤下依然丝滑
-! Version: 20260226
-! Last Modified: 2026-02-26
-... (其余规则内容)
-
+! Description: 针对 iOS AdGuard Pro 优化的全能白名单。涵盖系统补丁、AI 增强、CF 加固、全球流媒体、国内生活及金融补丁。
+! Version: 2026.02.26.1
+! Updated: 2026-02-26
+! Homepage: https://github.com/MEyifan20/Whitelist
+! License: https://opensource.org/licenses/mit-license.php
+! -----------------------------------------------------------
 
 ! === Priority Fixes (针对激进黑名单的强制覆盖) ===
 ! 解决 Google 搜索点击、App 统计、及国内推送误杀
@@ -110,4 +111,5 @@
 @@||t.me^$important
 @@||telegram.org^$important
 @@||discord.com^$important
+
 
