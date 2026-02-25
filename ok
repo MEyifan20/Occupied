@@ -1,0 +1,215 @@
+! Title: Aggressive Overseas & CN Whitelist for AdGuard Pro (iOS Ultimate Edition)
+! Description: 缝合了 BlueSkyXN ok.txt 全量内容与 iOS 系统级深度补丁，解决金融、系统同步、AI 等误杀。
+! Updated: 2026-02-26
+
+! === Base Infrastructure (核心登录与基础跳转) ===
+@@||doubleclick.net^
+@@||googleadservices.com^
+@@||googletagmanager.com^
+@@||googletagservices.com^
+@@||adsystem.com^
+@@||analytics.google.com^
+@@||analytics.twitter.com^
+@@||dpm.demdex.net^
+@@||s0.2mdn.net^
+
+! === iOS System Services (iOS 系统级核心服务保障) ===
+! iCloud, Photos & Find My
+@@||icloud.com^
+@@||icloud-content.com^
+@@||apple-cloudkit.com^
+@@||statici.icloud.com^
+@@||setup.icloud.com^
+@@||fmip.icloud.com^
+@@||findmymobile.apple.com^
+! iMessage, FaceTime & Push
+@@||static.ess.apple.com^
+@@||identity.apple.com^
+@@||ess.apple.com^
+@@||push.apple.com^
+! OTA Updates & Certificate (更新与安全验证)
+@@||mesu.apple.com^
+@@||gdmf.apple.com^
+@@||gdmf-ados.apple.com^
+@@||ocsp.apple.com^
+@@||ocsp2.apple.com^
+@@||certs.apple.com^
+@@||crl.apple.com^
+@@||valid.apple.com^
+@@||world-gen.g.aaplimg.com^
+! System Diagnostics & Time
+@@||xp.apple.com^
+@@||xp-cdn.apple.com^
+@@||diagassets.apple.com^
+@@||time.apple.com^
+@@||time-ios.apple.com^
+@@||captive.apple.com^
+
+! === Network Diagnostics & Speedtest (系统诊断与全球测速) ===
+@@||speedtest.net^
+@@||ooklaserver.net^
+@@||fast.com^
+@@||speed.cloudflare.com^
+@@||speed.hetzner.de^
+@@||speed.vultr.com^
+@@||networktest.apple.com^
+@@||configuration.apple.com^
+@@||vpp.itunes.apple.com^
+@@||db-ip.com^
+
+! === Apple Ecosystem (App Store 与苹果全家桶) ===
+@@||apple.com^
+@@||mzstatic.com^
+@@||s.mzstatic.com^
+@@||cdn-apple.com^
+@@||apps.apple.com^
+@@||itunes.apple.com^
+@@||itunes.com^
+@@||appleid.cdn-apple.com^
+@@||apple-dns.net^
+@@||aaplimg.com^
+@@||apple-mapkit.com^
+
+! === Google Ecosystem (谷歌框架/推送/同步/API) ===
+@@||google.com^
+@@||google.com.hk^
+@@||google.cn^
+@@||accounts.google.com^
+@@||clients4.google.com^
+@@||fcm.googleapis.com^
+@@||firebaseinstallations.googleapis.com^
+@@||googleapis.com^
+@@||googleapis.cn^
+@@||gstatic.com^
+@@||gstatic.cn^
+@@||google-analytics.com^$important
+@@||app-measurement.com^
+@@||googleusercontent.com^
+@@||1e100.net^
+@@||googlevideo.com^
+@@||gvt2.com^
+
+! === AI / LLM / Auth (人工智能与身份验证) ===
+@@||openai.com^
+@@||chatgpt.com^
+@@||oaistatic.com^
+@@||oaiusercontent.com^
+@@||ai.com^
+@@||auth0.com^
+@@||anthropic.com^
+@@||claude.ai^
+@@||huggingface.co^
+@@||hf.co^
+! Google AI / Gemini
+@@||gemini.google.com^
+@@||generativelanguage.googleapis.com^
+@@||alkaliminer-pa.googleapis.com^
+@@||proactivebackend-pa.googleapis.com^
+
+! === Financial & Banking (全球金融/银行/支付补丁) ===
+! International
+@@||paypal.com^
+@@||paypalobjects.com^
+@@||www.paypalobjects.com^
+@@||stripe.com^
+@@||visa.com^
+@@||mastercard.com^
+@@||skrill.com^
+@@||wise.com^
+@@||charlesschwab.sc.omtrdc.net^
+@@||discover.com^
+@@||discovercard.com^
+@@||capitalone.com^
+! CN Banks
+@@||boc.cn^
+@@||cmbchina.com^
+@@||bankcomm.com^
+@@||alipay.com^
+@@||tenpay.com^
+
+! === CN Essentials: Tech & Services (国内主流大厂与服务) ===
+@@||mi.com^
+@@||xiaomi.com^
+@@||xiaomi.net^
+@@||sec.resource.xiaomi.net^
+@@||qq.com^
+@@||weixin.qq.com^
+@@||gtimg.com^
+@@||cdn.ark.qq.com^
+@@||alicdn.com^
+@@||taobao.com^
+@@||tmall.com^
+@@||jd.com^
+@@||wl.jd.com^
+@@||360buyimg.com^
+@@||baidu.com^
+@@||t*.baidu.com^
+@@||bdstatic.com^
+@@||weibo.com^
+@@||amap.com^
+@@||umeng.com^$important
+@@||knet.cn^
+@@||tagtic.cn^
+
+! === Common CDN & Verification (全球 CDN 与验证码) ===
+@@||fastly.net^
+@@||akamai.net^
+@@||akamaized.net^
+@@||cloudfront.net^
+@@||recaptcha.net^
+@@||hcaptcha.com^
+@@||turnstile.cloudflare.com^
+@@||js-agent.newrelic.com^
+@@||dpm.demdex.net^
+
+! === Dev / Productivity / Cloud (开发与云服务) ===
+@@||github.com^
+@@||githubusercontent.com^
+@@||githubassets.com^
+@@||gitlab.com^
+@@||npmjs.org^
+@@||nodejs.org^
+@@||python.org^
+@@||pypi.org^
+@@||docker.com^
+@@||cloudflareworkers.com^
+@@||vercel.com^
+@@||netlify.com^
+@@||oraclecloud.com^
+@@||notion.so^
+@@||slack.com^
+@@||zoom.us^
+
+! === Social & Communication (社交通讯与评论) ===
+@@||t.me^
+@@||telegram.org^
+@@||discord.com^
+@@||discordapp.net^
+@@||disqus.com^
+@@||referrer.disqus.com^
+
+! === Global Streaming & Media (全球流媒体服务) ===
+@@||netflix.com^
+@@||nflxvideo.net^
+@@||nflximg.net^
+@@||nflxso.net^
+@@||scdn.co^
+@@||spotifycdn.com^
+@@||i.scdn.co^
+@@||twitch.tv^
+@@||ttvnw.net^
+@@||hulu.com^
+@@||disneyplus.com^
+@@||primevideo.com^
+@@||fvs.io^
+@@||ssl.p.jwpcdn.com^
+
+! === Personal & Special Whitelist (个人与特殊补漏) ===
+@@||000714.xyz^
+@@||blueskyxn.com^
+@@||hanada.info^
+@@||moonbbs.com^
+@@||weiming.info^
+@@||aboluowang.com^
+@@||secretchina.com^
+@@||c3pool.com^
