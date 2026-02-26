@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: iOS-OmniGuard-Whitelist (Ultimate Unified Edition)
 ! Description: 针对 iOS 环境深度优化的全能白名单旗舰版。适配 217heidai 激进黑名单，强制修正系统、支付及 AI 误杀。
-! Version: 2026.02.26.22
+! Version: 2026.02.27.05
 ! Codename: Grandmaster-Ultra
-! Updated: 2026-02-26 22:10
+! Updated: 2026-02-27 05:39
 ! Homepage: https://github.com/MEyifan20/Whitelist
 ! License: https://opensource.org/licenses/mit-license.php
 ! Changelog: 1. 修复底层证书校验域名；2. 补全 X/Notion/AI 生产力矩阵；3. 强化金融跳转支付链路。
