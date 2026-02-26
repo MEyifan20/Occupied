@@ -3,9 +3,9 @@
 [Adblock Plus 2.0]
 ! Title: iOS-OmniGuard-Whitelist (Standard Unified Edition)
 ! Description: 针对 iOS 环境深度优化的全能白名单防误杀护盾。精准放行 Apple 核心服务、国内主流支付/社交链路及关键 CDN，与 Blacklist 完美配合，保障系统 100% 稳定运行。
-! Version: 2026.02.26.24
+! Version: 2026.02.26.22
 ! Codename: Guardian-Standard
-! Updated: 2026-02-26 21:30
+! Updated: 2026-02-26 22:10
 ! -------------------------------------------------------------------------------------------------------
 
 ## 📖 项目简介
@@ -72,7 +72,7 @@ $$Allow \cap \{Apple\_Core, Finance, Essential\_CDN\} \setminus \{Ad\_Tracker\} 
 ---
 **iOS-OmniGuard-Whitelist** · 愿你的网络环境干净且自由。
 
-**最后修改时间**：2026-02-26 21:30 (GMT+8)
+**最后修改时间**：2026-02-26 22:10 (GMT+8)
 
 ---
 **Maintained by**: [MEyifan20](https://github.com/MEyifan20)  
