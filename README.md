@@ -1,74 +1,78 @@
-# 🛡️ iOS-OmniGuard-Blacklist (Predator-Standard)
+# 🛡️ iOS-OmniGuard-Whitelist (Guardian-Standard)
 
 [Adblock Plus 2.0]
-! Title: iOS-OmniGuard-Blacklist (Standard Unified Edition)
-! Description: 针对 iOS 环境深度优化的全能黑名单旗舰版。采用去重增强架构，精准锁定 Google、YouTube 及国内主流视频/阅读 APP，与 Whitelist 实现 100% 逻辑闭环。
-! Version: 2026.02.26.21
-! Codename: Predator-Standard
-! Updated: 2026-02-26 14:50
+! Title: iOS-OmniGuard-Whitelist (Standard Unified Edition)
+! Description: 针对 iOS 环境深度优化的全能白名单防误杀护盾。精准放行 Apple 核心服务、国内主流支付/社交链路及关键 CDN，与 Blacklist 完美配合，保障系统 100% 稳定运行。
+! Version: 2026.02.26.24
+! Codename: Guardian-Standard
+! Updated: 2026-02-26 21:30
 ! -------------------------------------------------------------------------------------------------------
 
 ## 📖 项目简介
-**iOS-OmniGuard-Blacklist** 是专为 iOS 高级用户打造的“去重增强型”拦截方案。本方案不以域名数量取胜，而是通过高强度的 $important 标签和 DNS 库无法实现的路径级规则，对顽固广告进行精准剥离。
+**iOS-OmniGuard-Whitelist** 是专为 iOS 高级用户打造的“系统级保活”白名单方案。当你在使用高强度的 DNS 黑名单或代理工具去广告时，往往会遭遇 App 无法登录、图片加载失败或系统推送延迟等“误杀”问题。
 
-本库已完成对 iOS-OmniGuard-Whitelist 的全量冲突校验，并针对全球最大规则集 217heidai/adblockdns 完成了物理去重，确保系统资源占用极低。
+本库提取了高频误杀节点，通过高优先级的 `@@` 放行规则，为你张开一张隐形护盾。建议将其与 **iOS-OmniGuard-Blacklist** 组合使用，构建完美的攻防闭环。
 
 ---
 
 ## 🚀 订阅地址
 
 [ jsDelivr CDN 加速 (推荐国内直连) ]
-https://cdn.jsdelivr.net/gh/MEyifan20/Whitelist@main/iOS-OmniGuard-Blacklist.txt
+https://cdn.jsdelivr.net/gh/MEyifan20/Whitelist@main/iOS-OmniGuard-Whitelist.txt
 
 [ GitHub 原生地址 ]
-https://raw.githubusercontent.com/MEyifan20/Whitelist/main/iOS-OmniGuard-Blacklist.txt
+https://raw.githubusercontent.com/MEyifan20/Whitelist/main/iOS-OmniGuard-Whitelist.txt
 
 ---
 
 ## 💎 核心优势
-* 🚀 极速补丁: 已剔除通用库中 20w+ 冗余域名，仅保留高频变动与高难度的特定规则。
-* 🎯 路径级过滤: 突破 DNS 拦截局限，精准锁定 YouTube 视频中插及 Google 统计脚本路径。
-* 🛠️ 强效修正: 使用 $important 标签，强制覆盖第三方规则中可能的误杀或漏杀。
-* 📖 深度专项: 内置“优爱腾芒”及“七猫/番茄”等国内主流视频与小说 APP 的专项补丁。
+* 🍎 **苹果生态保活**: 强制放行 iCloud 极速同步、App Store 下载、iMessage 及推送服务。
+* 💳 **支付链路绿灯**: 确保微信支付、支付宝、银联等金融级 API 节点绝对畅通。
+* 🔗 **关键 CDN 修复**: 修复因误杀导致的淘宝/京东图片不显示、B站弹幕断流等次生灾害。
+* ⚖️ **底层逻辑闭环**: 采用白名单最高优先级逻辑，免疫一切第三方黑名单库的暴力误杀。
 
 ---
 
 ## 🛠️ 技术指标 (Technical Metrics)
-为了实现极致的拦截效果，本项目遵循以下逻辑：
-$$Block \cap \{Ad, Tracker, Hijack\} \setminus \{Core\_Service\} = \emptyset$$
+为了实现极致的系统稳定性，本项目遵循以下放行逻辑：
+$$Allow \cap \{Apple\_Core, Finance, Essential\_CDN\} \setminus \{Ad\_Tracker\} = 100\%$$
 
-| 模块名称 | 拦截目标 | 策略强度 |
+| 模块名称 | 保护目标 | 策略强度 |
 | :--- | :--- | :--- |
-| **Priority Targets** | Google 广告集群、GTM 追踪、路径级脚本 | 核心 (Core) |
-| **YouTube Predator** | 视频中插、QOE 统计、短视频广告标识 | 实时 (Real-time) |
-| **CN Video Shield** | 优爱腾芒、B站动态广告、日志上报 | 专项 (Special) |
-| **Reading Shield** | 七猫/番茄小说穿插、激励视频、SDK 注入 | 深度 (Clean) |
-| **Global Networks** | 全球主流广告分发、移动端统计引擎 | 强化 (Force) |
+| **Apple Core** | iCloud, App Store, 系统的推送与时间同步 | 绝对放行 (Allow) |
+| **Finance Shield** | 微信支付、支付宝、银行 App 核心网关 | 绝对放行 (Allow) |
+| **CN Essential** | 腾讯/阿里/字节跳动的基础云服务及登录组件 | 修复 (Repair) |
+| **Global CDN** | Akamai, Cloudflare 等容易被误杀的云节点 | 保障 (Secure) |
 
 ---
 
 ## ⚙️ 配置建议
-1. **添加路径**：防护 (盾牌图标) -> DNS 防护 -> DNS 过滤 -> DNS 过滤器 -> 添加过滤器。
-2. **务必同时订阅** iOS-OmniGuard-Whitelist 并将其优先级设为最高，以确保系统服务不被误杀。
-3. **配合使用**: 本列表已针对 217heidai 规则去重，建议将两者配合使用以获得覆盖率与性能的最优解。
+1. **添加路径**：在 AdGuard Pro 等工具中，将上方订阅链接作为**DNS 过滤器**添加（AdGuard 原生支持识别 `@@` 白名单语法）。
+2. **优先级设置**：请务必确保该白名单的排序和优先级**高于**所有黑名单，让防护盾在第一层生效。
+3. **配合使用**: 强烈建议与本项目的兄弟版本 `iOS-OmniGuard-Blacklist` 组合使用。
+
+---
+
+## 🤖 自动化维护 (Auto-Update)
+本项目支持通过 GitHub Actions 实现自动化维护，每日自动更新版本号与时间戳，确保你的规则永远处于激活状态。
 
 ---
 
 ## 🤝 致谢与声明
-* 致谢: 感谢 EasyList, AdRules 及 217heidai 提供的基础数据支持。
-* 声明: 本项目仅供技术研究与交流使用，禁止用于任何非法用途。
+* 致谢: 感谢各大开源去广告社区提供的排错反馈。
+* 声明: 本项目仅供技术研究与交流使用。
 
 ---
 
 ## ❤️ 助力项目
 
 - **点亮 Star**：点击右上角 ⭐ Star，这是对我持续维护最大的动力。
-- **反馈问题**：请提交 [Issues](https://github.com/MEyifan20/iOS-OmniGuard-Whitelist/issues)。
+- **反馈问题**：请提交 [Issues](https://github.com/MEyifan20/Whitelist/issues)。
 
 ---
 **iOS-OmniGuard-Whitelist** · 愿你的网络环境干净且自由。
 
-**最后修改时间**：2026-02-26 14:50 (GMT+8)
+**最后修改时间**：2026-02-26 21:30 (GMT+8)
 
 ---
 **Maintained by**: [MEyifan20](https://github.com/MEyifan20)  
